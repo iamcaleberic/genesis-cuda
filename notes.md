@@ -12,3 +12,10 @@
      - Called from the host
 * Terminology: a block can be split into parallel threads
   - We use threadIdx.x instead of blockIdx.x
+
+
+* name <<<dim3(x,y,z), dim3(x,y,z)>>>
+  - We can launch a multidimensional block  passing dim3  struct /
+   this just means pass x number of blocks on the X-axis of a grid with the corresponding
+   and the number of blocks Y-axis on on a grid and the number of blocks on the Z-axis on
+   the grid
